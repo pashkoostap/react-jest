@@ -6,11 +6,7 @@ interface AppProps {
 }
 
 const App = (props: AppProps) => {
-  const data = null;
-
-  console.log(someData);
-
-  return <div>{props.data}</div>;
+  return <div>{props.title}</div>;
 };
 
 export default App;
